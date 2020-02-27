@@ -1,0 +1,55 @@
+body {
+    background-color: #DDD;
+    font-family: 'Source Sans Pro';
+}
+
+.stream-tokens {
+    margin: 10px;
+}
+
+.accounts, .stream-form {
+    text-align: center;
+    margin: 30px 10px;
+}
+.accounts__title, .stream-form__title {
+    font-size: 1.5em;
+}
+
+.account-row {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #BBB;
+    cursor: pointer;
+}
+.account-row.selected {
+    background-color: #4C4;
+}
+
+.input {
+    display: block;
+    background-color: #FFF;
+    padding: 10px;
+    margin: 10px;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    border: 0;
+}
+.input-inline {
+    display: inline-block;
+    width: 100px;
+}
+input.button {
+    display: block;
+    background-color: #444;
+    padding: 10px;
+    margin: 10px auto;
+    border: 0;
+    border-radius: 40px;
+    border-radius: 20px;
+    color: white;
+}
+.button:disabled {
+    cursor: not-allowed;
+    background-color: #888;
+}
