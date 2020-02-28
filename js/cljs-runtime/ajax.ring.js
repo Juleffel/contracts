@@ -17,8 +17,8 @@ return new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"st
  * populate the :body key in the response map.
  */
 ajax.ring.ring_response_format = (function ajax$ring$ring_response_format(var_args){
-var G__52975 = arguments.length;
-switch (G__52975) {
+var G__53700 = arguments.length;
+switch (G__53700) {
 case 0:
 return ajax.ring.ring_response_format.cljs$core$IFn$_invoke$arity$0();
 
@@ -37,14 +37,14 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 return ajax.ring.ring_response_format.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"format","format",-1306924766),ajax.formats.raw_response_format.cljs$core$IFn$_invoke$arity$0()], null));
 }));
 
-(ajax.ring.ring_response_format.cljs$core$IFn$_invoke$arity$1 = (function (p__52977){
-var map__52979 = p__52977;
-var map__52979__$1 = (((((!((map__52979 == null))))?(((((map__52979.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__52979.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__52979):map__52979);
-var map__52980 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52979__$1,new cljs.core.Keyword(null,"format","format",-1306924766));
-var map__52980__$1 = (((((!((map__52980 == null))))?(((((map__52980.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__52980.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__52980):map__52980);
-var read = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52980__$1,new cljs.core.Keyword(null,"read","read",1140058661));
-var description = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52980__$1,new cljs.core.Keyword(null,"description","description",-1428560544));
-var content_type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52980__$1,new cljs.core.Keyword(null,"content-type","content-type",-508222634));
+(ajax.ring.ring_response_format.cljs$core$IFn$_invoke$arity$1 = (function (p__53702){
+var map__53703 = p__53702;
+var map__53703__$1 = (((((!((map__53703 == null))))?(((((map__53703.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__53703.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__53703):map__53703);
+var map__53704 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__53703__$1,new cljs.core.Keyword(null,"format","format",-1306924766));
+var map__53704__$1 = (((((!((map__53704 == null))))?(((((map__53704.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__53704.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__53704):map__53704);
+var read = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__53704__$1,new cljs.core.Keyword(null,"read","read",1140058661));
+var description = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__53704__$1,new cljs.core.Keyword(null,"description","description",-1428560544));
+var content_type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__53704__$1,new cljs.core.Keyword(null,"content-type","content-type",-508222634));
 return ajax.interceptors.map__GT_ResponseFormat(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"read","read",1140058661),ajax.ring.make_ring_read(read),new cljs.core.Keyword(null,"description","description",-1428560544),["ring/",cljs.core.str.cljs$core$IFn$_invoke$arity$1(description)].join(''),new cljs.core.Keyword(null,"content-type","content-type",-508222634),content_type], null));
 }));
 
