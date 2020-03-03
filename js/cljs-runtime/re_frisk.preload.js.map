@@ -1,0 +1,1 @@
+{"version":3,"sources":["re_frisk/preload.cljs"],"mappings":";;;AAIA,AAACA","names":["re-frisk.core/enable-re-frisk!"],"sourcesContent":["(ns re-frisk.preload\n  (:require [re-frisk.core :refer [enable-re-frisk!]]))\n\n\n(enable-re-frisk!)\n"]}

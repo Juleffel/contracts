@@ -1,6 +1,28 @@
 body {
-    background-color: #DDD;
+    background-color: #f8f8f8;
     font-family: 'Source Sans Pro';
+}
+
+header, footer {
+	width: 100%;
+	text-align: center;
+}
+
+header {
+	background-image: url('https://uploads-ssl.webflow.com/5df3a05ff185e81a329902dd/5e158ccb17a0cf430ed8619b_background-hero.svg');
+	background-position: 50% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 200px;
+}
+header .header-title {
+    padding: 60px;
+}
+header h2 {
+    margin: 0;
+    color: #FFF;
+    font-size: 2em;
 }
 
 .stream-tokens {
@@ -19,11 +41,27 @@ body {
     padding: 10px;
     margin: 10px;
     text-align: center;
-    background-color: #BBB;
+    background-color: #d6d6d6;
     cursor: pointer;
 }
+.account-row .address {
+    width: 100%;
+}
+.account-row .balance {
+    width: 100%;
+    margin-top: 7px;
+}
+.account-row .balance-amount {
+    display: inline;
+    font-size: 2em;
+    margin-right: 7px;
+}
+.account-row .balance-token {
+    display: inline;
+    font-size: 1em;
+}
 .account-row.selected {
-    background-color: #4C4;
+    background-color: #c8dbff;
 }
 
 .input {
@@ -41,15 +79,28 @@ body {
 }
 input.button {
     display: block;
-    background-color: #444;
+    background-color: #789cde;
     padding: 10px;
     margin: 10px auto;
     border: 0;
     border-radius: 40px;
     border-radius: 20px;
     color: white;
+    cursor: pointer;
+    transition: background-color 100ms;
+}
+.button:hover {
+    background-color: #597fc7;
 }
 .button:disabled {
     cursor: not-allowed;
-    background-color: #888;
+    background-color: #d6d6d6;
+}
+
+@media only screen and (min-width: 960px) {
+    .user-accounts, .recipients-accounts {
+        width: 50%;
+        display: inline-block;
+        vertical-align: top;
+    }
 }
