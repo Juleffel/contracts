@@ -97,6 +97,12 @@ input.button {
     background-color: #d6d6d6;
 }
 
+.stream-help {
+    color: #777;
+    font-style: italic;
+    margin: 5px 0;
+}
+
 @media only screen and (min-width: 960px) {
     .user-accounts, .recipients-accounts {
         width: 50%;

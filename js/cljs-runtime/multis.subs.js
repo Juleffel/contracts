@@ -3,22 +3,22 @@ goog.require('cljs.core');
 goog.require('re_frame.core');
 goog.require('multis.utils');
 multis.subs.reg_sub_db = (function multis$subs$reg_sub_db(var_args){
-var G__53753 = arguments.length;
-switch (G__53753) {
+var G__43782 = arguments.length;
+switch (G__43782) {
 case 1:
 return multis.subs.reg_sub_db.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___53826 = arguments.length;
-var i__4790__auto___53827 = (0);
+var len__4789__auto___43858 = arguments.length;
+var i__4790__auto___43859 = (0);
 while(true){
-if((i__4790__auto___53827 < len__4789__auto___53826)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___53827]));
+if((i__4790__auto___43859 < len__4789__auto___43858)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___43859]));
 
-var G__53828 = (i__4790__auto___53827 + (1));
-i__4790__auto___53827 = G__53828;
+var G__43860 = (i__4790__auto___43859 + (1));
+i__4790__auto___43859 = G__43860;
 continue;
 } else {
 }
@@ -32,114 +32,159 @@ return multis.subs.reg_sub_db.cljs$core$IFn$_invoke$arity$variadic((arguments[(0
 });
 
 (multis.subs.reg_sub_db.cljs$core$IFn$_invoke$arity$1 = (function (db_path){
-var G__53756 = db_path;
-var G__53757 = (function (db,_){
+var G__43783 = db_path;
+var G__43784 = (function (db,_){
 return (db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(db_path) : db.call(null,db_path));
 });
-return (re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__53756,G__53757) : re_frame.core.reg_sub.call(null,G__53756,G__53757));
+return (re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__43783,G__43784) : re_frame.core.reg_sub.call(null,G__43783,G__43784));
 }));
 
 (multis.subs.reg_sub_db.cljs$core$IFn$_invoke$arity$variadic = (function (event_name,db_path){
-var G__53759 = event_name;
-var G__53760 = (function (db,_){
+var G__43785 = event_name;
+var G__43786 = (function (db,_){
 return cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(db,db_path);
 });
-return (re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__53759,G__53760) : re_frame.core.reg_sub.call(null,G__53759,G__53760));
+return (re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__43785,G__43786) : re_frame.core.reg_sub.call(null,G__43785,G__43786));
 }));
 
 /** @this {Function} */
-(multis.subs.reg_sub_db.cljs$lang$applyTo = (function (seq53751){
-var G__53752 = cljs.core.first(seq53751);
-var seq53751__$1 = cljs.core.next(seq53751);
+(multis.subs.reg_sub_db.cljs$lang$applyTo = (function (seq43780){
+var G__43781 = cljs.core.first(seq43780);
+var seq43780__$1 = cljs.core.next(seq43780);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__53752,seq53751__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__43781,seq43780__$1);
 }));
 
 (multis.subs.reg_sub_db.cljs$lang$maxFixedArity = (1));
 
-var G__53762_53839 = new cljs.core.Keyword(null,"user-accounts","user-accounts",-1069398958);
-var G__53763_53840 = (function (db,_){
+var G__43787_43861 = new cljs.core.Keyword(null,"user-accounts","user-accounts",-1069398958);
+var G__43788_43862 = (function (db,_){
 return cljs.core.vals(cljs.core.get.cljs$core$IFn$_invoke$arity$2(db,new cljs.core.Keyword(null,"user-accounts","user-accounts",-1069398958)));
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__53762_53839,G__53763_53840) : re_frame.core.reg_sub.call(null,G__53762_53839,G__53763_53840));
-var G__53765_53842 = new cljs.core.Keyword(null,"recipient-accounts","recipient-accounts",235535329);
-var G__53766_53843 = (function (db,_){
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__43787_43861,G__43788_43862) : re_frame.core.reg_sub.call(null,G__43787_43861,G__43788_43862));
+var G__43789_43863 = new cljs.core.Keyword(null,"recipient-accounts","recipient-accounts",235535329);
+var G__43790_43864 = (function (db,_){
 return cljs.core.vals(cljs.core.get.cljs$core$IFn$_invoke$arity$2(db,new cljs.core.Keyword(null,"recipient-accounts","recipient-accounts",235535329)));
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__53765_53842,G__53766_53843) : re_frame.core.reg_sub.call(null,G__53765_53842,G__53766_53843));
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__43789_43863,G__43790_43864) : re_frame.core.reg_sub.call(null,G__43789_43863,G__43790_43864));
 multis.subs.reg_sub_db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"token-abi","token-abi",-124585965));
-var G__53767_53845 = new cljs.core.Keyword(null,"new-recipient-address","new-recipient-address",1717776575);
-var G__53768_53846 = new cljs.core.Keyword(null,"<-","<-",760412998);
-var G__53769_53847 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"form-value","form-value",-1466863926),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"new-recipient-address","new-recipient-address",1717776575)], null)], null);
-var G__53770_53848 = (function (v){
+var G__43791_43866 = new cljs.core.Keyword(null,"new-recipient-address","new-recipient-address",1717776575);
+var G__43792_43867 = new cljs.core.Keyword(null,"<-","<-",760412998);
+var G__43793_43868 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"form-value","form-value",-1466863926),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"new-recipient-address","new-recipient-address",1717776575)], null)], null);
+var G__43794_43869 = (function (v){
 return v;
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4(G__53767_53845,G__53768_53846,G__53769_53847,G__53770_53848) : re_frame.core.reg_sub.call(null,G__53767_53845,G__53768_53846,G__53769_53847,G__53770_53848));
-var G__53771_53852 = new cljs.core.Keyword(null,"new-recipient-address-valid?","new-recipient-address-valid?",-1523867837);
-var G__53772_53853 = new cljs.core.Keyword(null,"<-","<-",760412998);
-var G__53773_53854 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"new-recipient-address","new-recipient-address",1717776575)], null);
-var G__53774_53855 = (function (v){
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4(G__43791_43866,G__43792_43867,G__43793_43868,G__43794_43869) : re_frame.core.reg_sub.call(null,G__43791_43866,G__43792_43867,G__43793_43868,G__43794_43869));
+var G__43795_43872 = new cljs.core.Keyword(null,"new-recipient-address-valid?","new-recipient-address-valid?",-1523867837);
+var G__43796_43873 = new cljs.core.Keyword(null,"<-","<-",760412998);
+var G__43797_43874 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"new-recipient-address","new-recipient-address",1717776575)], null);
+var G__43798_43875 = (function (v){
 return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.count(v),(42));
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4(G__53771_53852,G__53772_53853,G__53773_53854,G__53774_53855) : re_frame.core.reg_sub.call(null,G__53771_53852,G__53772_53853,G__53773_53854,G__53774_53855));
-var G__53775_53859 = new cljs.core.Keyword(null,"stream-amount","stream-amount",2062367003);
-var G__53776_53860 = new cljs.core.Keyword(null,"<-","<-",760412998);
-var G__53777_53861 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"form-value","form-value",-1466863926),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"stream-amount","stream-amount",2062367003)], null)], null);
-var G__53778_53862 = (function (v){
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4(G__43795_43872,G__43796_43873,G__43797_43874,G__43798_43875) : re_frame.core.reg_sub.call(null,G__43795_43872,G__43796_43873,G__43797_43874,G__43798_43875));
+var G__43799_43879 = new cljs.core.Keyword(null,"stream-amount","stream-amount",2062367003);
+var G__43800_43880 = new cljs.core.Keyword(null,"<-","<-",760412998);
+var G__43801_43881 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"form-value","form-value",-1466863926),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"stream-amount","stream-amount",2062367003)], null)], null);
+var G__43802_43882 = (function (v){
 return v;
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4(G__53775_53859,G__53776_53860,G__53777_53861,G__53778_53862) : re_frame.core.reg_sub.call(null,G__53775_53859,G__53776_53860,G__53777_53861,G__53778_53862));
-var G__53781_53864 = new cljs.core.Keyword(null,"stream-duration","stream-duration",-719342548);
-var G__53782_53865 = new cljs.core.Keyword(null,"<-","<-",760412998);
-var G__53783_53866 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"form-value","form-value",-1466863926),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"stream-duration","stream-duration",-719342548)], null)], null);
-var G__53784_53867 = (function (v){
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4(G__43799_43879,G__43800_43880,G__43801_43881,G__43802_43882) : re_frame.core.reg_sub.call(null,G__43799_43879,G__43800_43880,G__43801_43881,G__43802_43882));
+var G__43803_43884 = new cljs.core.Keyword(null,"stream-duration","stream-duration",-719342548);
+var G__43804_43885 = new cljs.core.Keyword(null,"<-","<-",760412998);
+var G__43805_43886 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"form-value","form-value",-1466863926),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"stream-duration","stream-duration",-719342548)], null)], null);
+var G__43806_43887 = (function (v){
 return v;
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4(G__53781_53864,G__53782_53865,G__53783_53866,G__53784_53867) : re_frame.core.reg_sub.call(null,G__53781_53864,G__53782_53865,G__53783_53866,G__53784_53867));
-var G__53786_53869 = new cljs.core.Keyword(null,"selected-user-account","selected-user-account",-102720015);
-var G__53787_53870 = new cljs.core.Keyword(null,"<-","<-",760412998);
-var G__53788_53871 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"form-value","form-value",-1466863926),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"selected-user-account","selected-user-account",-102720015)], null)], null);
-var G__53789_53872 = (function (v){
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4(G__43803_43884,G__43804_43885,G__43805_43886,G__43806_43887) : re_frame.core.reg_sub.call(null,G__43803_43884,G__43804_43885,G__43805_43886,G__43806_43887));
+var G__43807_43891 = new cljs.core.Keyword(null,"selected-user-account","selected-user-account",-102720015);
+var G__43808_43892 = new cljs.core.Keyword(null,"<-","<-",760412998);
+var G__43809_43893 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"form-value","form-value",-1466863926),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"selected-user-account","selected-user-account",-102720015)], null)], null);
+var G__43810_43894 = (function (v){
 return v;
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4(G__53786_53869,G__53787_53870,G__53788_53871,G__53789_53872) : re_frame.core.reg_sub.call(null,G__53786_53869,G__53787_53870,G__53788_53871,G__53789_53872));
-var G__53790_53879 = new cljs.core.Keyword(null,"selected-recipient-account","selected-recipient-account",-216522927);
-var G__53791_53880 = new cljs.core.Keyword(null,"<-","<-",760412998);
-var G__53792_53881 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"form-value","form-value",-1466863926),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"selected-recipient-account","selected-recipient-account",-216522927)], null)], null);
-var G__53793_53882 = (function (v){
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4(G__43807_43891,G__43808_43892,G__43809_43893,G__43810_43894) : re_frame.core.reg_sub.call(null,G__43807_43891,G__43808_43892,G__43809_43893,G__43810_43894));
+var G__43811_43895 = new cljs.core.Keyword(null,"selected-recipient-account","selected-recipient-account",-216522927);
+var G__43812_43896 = new cljs.core.Keyword(null,"<-","<-",760412998);
+var G__43813_43897 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"form-value","form-value",-1466863926),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"selected-recipient-account","selected-recipient-account",-216522927)], null)], null);
+var G__43814_43898 = (function (v){
 return v;
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4(G__53790_53879,G__53791_53880,G__53792_53881,G__53793_53882) : re_frame.core.reg_sub.call(null,G__53790_53879,G__53791_53880,G__53792_53881,G__53793_53882));
-var G__53795_53883 = new cljs.core.Keyword(null,"stream-values","stream-values",1710399854);
-var G__53796_53884 = new cljs.core.Keyword(null,"<-","<-",760412998);
-var G__53797_53885 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"selected-user-account","selected-user-account",-102720015)], null);
-var G__53798_53886 = new cljs.core.Keyword(null,"<-","<-",760412998);
-var G__53799_53887 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"selected-recipient-account","selected-recipient-account",-216522927)], null);
-var G__53800_53888 = new cljs.core.Keyword(null,"<-","<-",760412998);
-var G__53801_53889 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"stream-amount","stream-amount",2062367003)], null);
-var G__53802_53890 = new cljs.core.Keyword(null,"<-","<-",760412998);
-var G__53803_53891 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"stream-duration","stream-duration",-719342548)], null);
-var G__53804_53892 = (function (p__53809){
-var vec__53810 = p__53809;
-var u = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__53810,(0),null);
-var r = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__53810,(1),null);
-var a = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__53810,(2),null);
-var d = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__53810,(3),null);
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4(G__43811_43895,G__43812_43896,G__43813_43897,G__43814_43898) : re_frame.core.reg_sub.call(null,G__43811_43895,G__43812_43896,G__43813_43897,G__43814_43898));
+var G__43815_43899 = new cljs.core.Keyword(null,"stream-values","stream-values",1710399854);
+var G__43816_43900 = new cljs.core.Keyword(null,"<-","<-",760412998);
+var G__43817_43901 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"selected-user-account","selected-user-account",-102720015)], null);
+var G__43818_43902 = new cljs.core.Keyword(null,"<-","<-",760412998);
+var G__43819_43903 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"selected-recipient-account","selected-recipient-account",-216522927)], null);
+var G__43820_43904 = new cljs.core.Keyword(null,"<-","<-",760412998);
+var G__43821_43905 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"stream-amount","stream-amount",2062367003)], null);
+var G__43822_43906 = new cljs.core.Keyword(null,"<-","<-",760412998);
+var G__43823_43907 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"stream-duration","stream-duration",-719342548)], null);
+var G__43824_43908 = (function (p__43825){
+var vec__43826 = p__43825;
+var u = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43826,(0),null);
+var r = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43826,(1),null);
+var a = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43826,(2),null);
+var d = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__43826,(3),null);
 return new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"user-address","user-address",-2070986675),u,new cljs.core.Keyword(null,"recipient-address","recipient-address",1388330049),r,new cljs.core.Keyword(null,"amount","amount",364489504),(a | (0)),new cljs.core.Keyword(null,"duration","duration",1444101068),(d | (0))], null);
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$10 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$10(G__53795_53883,G__53796_53884,G__53797_53885,G__53798_53886,G__53799_53887,G__53800_53888,G__53801_53889,G__53802_53890,G__53803_53891,G__53804_53892) : re_frame.core.reg_sub.call(null,G__53795_53883,G__53796_53884,G__53797_53885,G__53798_53886,G__53799_53887,G__53800_53888,G__53801_53889,G__53802_53890,G__53803_53891,G__53804_53892));
-var G__53816_53902 = new cljs.core.Keyword(null,"stream-values-valid?","stream-values-valid?",497467954);
-var G__53817_53903 = new cljs.core.Keyword(null,"<-","<-",760412998);
-var G__53818_53904 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"stream-values","stream-values",1710399854)], null);
-var G__53819_53905 = (function (p__53820){
-var map__53821 = p__53820;
-var map__53821__$1 = (((((!((map__53821 == null))))?(((((map__53821.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__53821.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__53821):map__53821);
-var user_address = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__53821__$1,new cljs.core.Keyword(null,"user-address","user-address",-2070986675));
-var recipient_address = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__53821__$1,new cljs.core.Keyword(null,"recipient-address","recipient-address",1388330049));
-var amount = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__53821__$1,new cljs.core.Keyword(null,"amount","amount",364489504));
-var duration = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__53821__$1,new cljs.core.Keyword(null,"duration","duration",1444101068));
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$10 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$10(G__43815_43899,G__43816_43900,G__43817_43901,G__43818_43902,G__43819_43903,G__43820_43904,G__43821_43905,G__43822_43906,G__43823_43907,G__43824_43908) : re_frame.core.reg_sub.call(null,G__43815_43899,G__43816_43900,G__43817_43901,G__43818_43902,G__43819_43903,G__43820_43904,G__43821_43905,G__43822_43906,G__43823_43907,G__43824_43908));
+var G__43829_43911 = new cljs.core.Keyword(null,"stream-values-valid?","stream-values-valid?",497467954);
+var G__43830_43912 = new cljs.core.Keyword(null,"<-","<-",760412998);
+var G__43831_43913 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"stream-values","stream-values",1710399854)], null);
+var G__43832_43914 = (function (p__43833){
+var map__43834 = p__43833;
+var map__43834__$1 = (((((!((map__43834 == null))))?(((((map__43834.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__43834.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__43834):map__43834);
+var user_address = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43834__$1,new cljs.core.Keyword(null,"user-address","user-address",-2070986675));
+var recipient_address = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43834__$1,new cljs.core.Keyword(null,"recipient-address","recipient-address",1388330049));
+var amount = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43834__$1,new cljs.core.Keyword(null,"amount","amount",364489504));
+var duration = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43834__$1,new cljs.core.Keyword(null,"duration","duration",1444101068));
 return multis.utils.stream_values_valid_QMARK_(user_address,recipient_address,amount,duration);
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4(G__53816_53902,G__53817_53903,G__53818_53904,G__53819_53905) : re_frame.core.reg_sub.call(null,G__53816_53902,G__53817_53903,G__53818_53904,G__53819_53905));
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4(G__43829_43911,G__43830_43912,G__43831_43913,G__43832_43914) : re_frame.core.reg_sub.call(null,G__43829_43911,G__43830_43912,G__43831_43913,G__43832_43914));
+var G__43836_43918 = new cljs.core.Keyword(null,"stream-values-filled?","stream-values-filled?",-2063992178);
+var G__43837_43919 = new cljs.core.Keyword(null,"<-","<-",760412998);
+var G__43838_43920 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"stream-values","stream-values",1710399854)], null);
+var G__43839_43921 = (function (p__43840){
+var map__43841 = p__43840;
+var map__43841__$1 = (((((!((map__43841 == null))))?(((((map__43841.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__43841.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__43841):map__43841);
+var user_address = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43841__$1,new cljs.core.Keyword(null,"user-address","user-address",-2070986675));
+var recipient_address = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43841__$1,new cljs.core.Keyword(null,"recipient-address","recipient-address",1388330049));
+var amount = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43841__$1,new cljs.core.Keyword(null,"amount","amount",364489504));
+var duration = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43841__$1,new cljs.core.Keyword(null,"duration","duration",1444101068));
+var and__4174__auto__ = user_address;
+if(cljs.core.truth_(and__4174__auto__)){
+var and__4174__auto____$1 = recipient_address;
+if(cljs.core.truth_(and__4174__auto____$1)){
+return ((((0) < amount)) && (((0) < duration)));
+} else {
+return and__4174__auto____$1;
+}
+} else {
+return and__4174__auto__;
+}
+});
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4(G__43836_43918,G__43837_43919,G__43838_43920,G__43839_43921) : re_frame.core.reg_sub.call(null,G__43836_43918,G__43837_43919,G__43838_43920,G__43839_43921));
+var G__43843_43922 = new cljs.core.Keyword(null,"stream-values-enough-tokens?","stream-values-enough-tokens?",-171312077);
+var G__43844_43923 = new cljs.core.Keyword(null,"<-","<-",760412998);
+var G__43845_43924 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"stream-values","stream-values",1710399854)], null);
+var G__43846_43925 = (function (p__43847){
+var map__43848 = p__43847;
+var map__43848__$1 = (((((!((map__43848 == null))))?(((((map__43848.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__43848.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__43848):map__43848);
+var amount = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43848__$1,new cljs.core.Keyword(null,"amount","amount",364489504));
+var duration = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43848__$1,new cljs.core.Keyword(null,"duration","duration",1444101068));
+return (amount >= ((3600) * duration));
+});
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4(G__43843_43922,G__43844_43923,G__43845_43924,G__43846_43925) : re_frame.core.reg_sub.call(null,G__43843_43922,G__43844_43923,G__43845_43924,G__43846_43925));
+var G__43850_43926 = new cljs.core.Keyword(null,"stream-values-mod-ok?","stream-values-mod-ok?",-627729389);
+var G__43851_43927 = new cljs.core.Keyword(null,"<-","<-",760412998);
+var G__43852_43928 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"stream-values","stream-values",1710399854)], null);
+var G__43853_43929 = (function (p__43854){
+var map__43855 = p__43854;
+var map__43855__$1 = (((((!((map__43855 == null))))?(((((map__43855.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__43855.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__43855):map__43855);
+var amount = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43855__$1,new cljs.core.Keyword(null,"amount","amount",364489504));
+var duration = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__43855__$1,new cljs.core.Keyword(null,"duration","duration",1444101068));
+return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((0),cljs.core.mod(amount,((3600) * duration)));
+});
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$4(G__43850_43926,G__43851_43927,G__43852_43928,G__43853_43929) : re_frame.core.reg_sub.call(null,G__43850_43926,G__43851_43927,G__43852_43928,G__43853_43929));
 
 //# sourceMappingURL=multis.subs.js.map
