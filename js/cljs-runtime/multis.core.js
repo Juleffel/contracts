@@ -14,37 +14,37 @@ goog.require('goog.History');
 goog.require('goog.history.EventType');
 devtools.core.install_BANG_.cljs$core$IFn$_invoke$arity$0();
 cljs.core.enable_console_print_BANG_();
-var G__44239_44249 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("app","initialise-db","app/initialise-db",-533973347)], null);
-(re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1(G__44239_44249) : re_frame.core.dispatch_sync.call(null,G__44239_44249));
-var action__40137__auto___44250 = (function (params__40138__auto__){
+var G__41178_41188 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("app","initialise-db","app/initialise-db",-533973347)], null);
+(re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1(G__41178_41188) : re_frame.core.dispatch_sync.call(null,G__41178_41188));
+var action__40137__auto___41189 = (function (params__40138__auto__){
 if(cljs.core.map_QMARK_(params__40138__auto__)){
-var map__44240 = params__40138__auto__;
-var map__44240__$1 = (((((!((map__44240 == null))))?(((((map__44240.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__44240.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__44240):map__44240);
+var map__41179 = params__40138__auto__;
+var map__41179__$1 = (((((!((map__41179 == null))))?(((((map__41179.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__41179.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__41179):map__41179);
 return null;
 } else {
 if(cljs.core.vector_QMARK_(params__40138__auto__)){
-var vec__44242 = params__40138__auto__;
+var vec__41181 = params__40138__auto__;
 return null;
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("/",action__40137__auto___44250);
+secretary.core.add_route_BANG_("/",action__40137__auto___41189);
 
 if((typeof multis !== 'undefined') && (typeof multis.core !== 'undefined') && (typeof multis.core.history !== 'undefined')){
 } else {
-multis.core.history = (function (){var G__44245 = (new goog.History());
-var G__44246_44252 = G__44245;
-var G__44247_44253 = goog.history.EventType.NAVIGATE;
-var G__44248_44254 = (function (event){
+multis.core.history = (function (){var G__41184 = (new goog.History());
+var G__41185_41190 = G__41184;
+var G__41186_41191 = goog.history.EventType.NAVIGATE;
+var G__41187_41192 = (function (event){
 return secretary.core.dispatch_BANG_(event.token);
 });
-goog.events.listen(G__44246_44252,G__44247_44253,G__44248_44254);
+goog.events.listen(G__41185_41190,G__41186_41191,G__41187_41192);
 
-G__44245.setEnabled(true);
+G__41184.setEnabled(true);
 
-return G__44245;
+return G__41184;
 })();
 }
 multis.core.render = (function multis$core$render(){
